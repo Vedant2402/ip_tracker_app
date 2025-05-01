@@ -1,3 +1,6 @@
+## Day 7 of 15 days of Challenge
+
+
 # 🛰️ IP Address Tracker
 
 A sleek, terminal-style IP Address Tracker built with **React**, featuring a dynamic map using **React Leaflet**, real-time data from the **ip-api.com** API, and a neon hacker-themed UI.
@@ -19,7 +22,8 @@ A sleek, terminal-style IP Address Tracker built with **React**, featuring a dyn
 
 ## 🧪 Demo
 
-> _Coming soon_ – or deploy it easily on **Vercel**, **Netlify**, or **GitHub Pages**.
+## Recommended to install the app on your local PC/Laptop, as the hosted website has searching restrictions (Follow step provide below for installation)
+Link -> https://ipaddresstracker01.netlify.app/
 
 ---
 
@@ -103,7 +107,11 @@ npm run build
 
 ## 🖼️ Screenshots
 
+![Screenshot 2025-04-30 220147](https://github.com/user-attachments/assets/6614e35f-7956-46a9-aad6-e1c4e294590b)
 
+![Screenshot 2025-04-30 220113](https://github.com/user-attachments/assets/23dc7860-8545-46f6-8677-2fe5ec7758db)
+
+![Screenshot 2025-04-30 220127](https://github.com/user-attachments/assets/ce14e5e8-1c88-4655-815a-a0f5745ce94e)
 
 ---
 
