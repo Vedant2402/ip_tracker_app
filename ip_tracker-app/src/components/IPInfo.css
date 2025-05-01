@@ -1,0 +1,21 @@
+.ip-info {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-inline: auto;
+    text-align: left;
+  }
+  
+  .ip-info p {
+    margin: 0.5rem 0;
+  }
+  
+  .map-container {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 1rem;
+  }
+  
