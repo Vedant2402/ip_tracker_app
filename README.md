@@ -101,7 +101,7 @@ npm run build
 
 - The app uses **ip-api.com**, which is a free, no-auth IP geolocation API for non-commercial use.
 - Private IPs like `192.168.x.x`, `10.x.x.x`, or `127.0.0.1` will return errors — the app handles this with alerts and fallbacks.
-- The map uses **CartoDB dark tiles** for a futuristic theme.
+- The map uses **CartoDB dark tiles** for a futuristic theme. [I'm using light mode on website]
 
 ---
 
