@@ -7,10 +7,22 @@ function App() {
   const [data, setData] = useState(null);
   const [input, setInput] = useState('');
 
+  const isPrivateIP = (ip) =>
+    /^10\./.test(ip) ||
+    /^192\.168\./.test(ip) ||
+    /^172\.(1[6-9]|2\d|3[0-1])\./.test(ip) ||
+    /^127\./.test(ip);
+
   const fetchIPInfo = async (queryIP = '') => {
     const url = queryIP ? `http://ip-api.com/json/${queryIP}` : `http://ip-api.com/json/`;
     const res = await fetch(url);
     const result = await res.json();
+
+    if (result.status === 'fail') {
+      alert(`Error: ${result.message}`);
+      return;
+    }
+
     setData(result);
     setIp(result.query);
   };
@@ -20,6 +32,10 @@ function App() {
   }, []);
 
   const handleSearch = () => {
+    if (isPrivateIP(input)) {
+      alert('Private IP addresses cannot be tracked. Please enter a public IP.');
+      return;
+    }
     fetchIPInfo(input);
   };
 
