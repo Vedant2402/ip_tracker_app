@@ -20,10 +20,9 @@ A sleek, terminal-style IP Address Tracker built with **React**, featuring a dyn
 
 ---
 
-## 🧪 Demo
+## Recommended to install the app on your local PC/Laptop, as the hosted website has searching restrictions (Follow the steps provided below for installation)
 
-## Recommended to install the app on your local PC/Laptop, as the hosted website has searching restrictions (Follow steps provided below for installation)
-Link -> https://ipaddresstracker01.netlify.app/
+## 🧪 Demo Link -> https://ipaddresstracker01.netlify.app/
 
 ---
 
